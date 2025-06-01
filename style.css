@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    /* Jenis huruf utama */
+    background-color: #fdf6e3;
+    /* Warna latar belakang krem */
+    color: #333;
+    /* Warna teks utama */
+    margin: 40px;
+    /* Ruang kosong di pinggir halaman */
+}
+
+h1,
+h2 {
+    color: #7a5c37;
+    /* Warna judul */
+    margin-bottom: 10px;
+    /* Jarak bawah judul */
+}
+
+.cv-title {
+    text-align: center;
+    /* Posisi judul CV di tengah */
+    font-size: 36px;
+    /* Ukuran huruf judul CV */
+    margin-bottom: 5px;
+    /* Jarak bawah judul */
+    color: #4b3e2d;
+    /* Warna judul utama */
+}
+
+.section {
+    background-color: #fffaf0;
+    /* Latar belakang putih kekuningan */
+    border-left: 6px solid #d6b98c;
+    /* Garis tepi kiri sebagai aksen */
+    padding: 25px;
+    /* Jarak isi bagian dari tepi */
+    border-radius: 12px;
+    /* Membulatkan sudut kotak */
+    margin-bottom: 25px;
+    /* Jarak antar bagian */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    /* Bayangan lembut */
+}
+
+.profile-container {
+    display: flex;
+    /* Menyusun foto & info sejajar horizontal */
+    align-items: center;
+    /* Rata tengah secara vertikal */
+    gap: 20px;
+    /* Jarak antar elemen di dalamnya */
+    margin-bottom: 30px;
+    /* Jarak bawah profil */
+}
+
+.profile-photo {
+    width: 150px;
+    /* Lebar foto */
+    height: 150px;
+    /* Tinggi foto */
+    object-fit: cover;
+    /* Potong dan rapikan gambar */
+    border-radius: 50%;
+    /* Bentuk bulat */
+    border: 4px solid #d6b98c;
+    /* Bingkai dengan warna aksen */
+}
+
+.info h1 {
+    margin: 0;
+    /* Hilangkan margin atas & bawah */
+    font-size: 28px;
+    /* Ukuran nama */
+    color: #7a5c37;
+    /* Warna nama */
+}
+
+.contact-info p {
+    margin: 4px 0;
+    /* Jarak antar baris informasi kontak */
+}
+
+ul {
+    padding-left: 20px;
+    /* Jarak kiri untuk bullet */
+}
+
+li {
+    margin-bottom: 6px;
+    /* Jarak antar item daftar */
+}
